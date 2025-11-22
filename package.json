@@ -1,0 +1,22 @@
+{
+  "name": "react-native-barcode-scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.6",
+    "@types/react-native": "^0.72.8",
+    "typescript": "^5.9.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
