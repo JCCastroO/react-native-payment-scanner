@@ -11,3 +11,4 @@ export interface ScannerProps {
     frameColor?: string;
     style?: ViewStyle;
 }
+//# sourceMappingURL=types.d.ts.map

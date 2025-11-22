@@ -1,29 +1,38 @@
 {
   "name": "react-native-barcode-scanner",
   "version": "1.0.0",
-  "description": "",
+  "description": "Biblioteca nativa para escanear barcode e QR code",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "files": [
-    "lib/",
-    "android/",
-    "ios/",
-    "package.json"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCCastroO/react-native-payment-scanner.git"
+  },
+  "keywords": [
+    "react-native",
+    "barcode",
+    "qrcode",
+    "scanner"
   ],
+  "author": "Seu Nome",
+  "license": "MIT",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
   },
   "devDependencies": {
     "@types/react": "^19.2.6",
-    "@types/react-native": "^0.72.8",
-    "typescript": "^5.9.3"
+    "typescript": "^5.0.0"
   },
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "files": [
+    "lib/",
+    "android/",
+    "ios/",
+    "package.json",
+    "README.md"
+  ]
 }
